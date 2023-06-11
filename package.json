@@ -32,6 +32,7 @@
     "@types/glob": "^7.2.0",
     "@types/react": "^17.0.31",
     "@types/react-dom": "^17.0.10",
+    "@types/unidecode": "^0.1.1",
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "@typescript-eslint/parser": "^4.0.1",
     "@vercel/webpack-asset-relocator-loader": "1.7.0",
@@ -75,6 +76,7 @@
     "react-router-dom": "^6.2.2",
     "semver": "^7.3.5",
     "sweetalert2": "11.4.8",
+    "unidecode": "^0.1.8",
     "zustand": "^3.6.0"
   }
 }
