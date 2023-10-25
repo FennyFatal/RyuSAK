@@ -144,7 +144,7 @@ const createWindow = (): void => {
     }
   });
 
-  mainWindow.webContents.on("new-window", function(e, url) {
+  mainWindow.webContents.on('new-window' as any, function(e: { preventDefault: () => void; }, url: string) {
     e.preventDefault();
     shell.openExternal(url);
   });
