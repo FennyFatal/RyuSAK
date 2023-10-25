@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "allowJs": true,
-    "module": "ES2020",
+    "target": "ESNext",
+    "module": "commonjs",
     "skipLibCheck": true,
     "esModuleInterop": true,
     "noImplicitAny": true,
@@ -10,10 +11,6 @@
     "outDir": "dist",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "noUnusedLocals": true,
-    "paths": {
-      "*": ["node_modules/*"]
-    },
     "jsx": "react"
   },
   "include": [
